@@ -158,3 +158,15 @@ By continuously tracking these parameters, our system ensures early fault detect
     }
 # Demo Video
 https://github.com/prahathesh1207/MOTOR_MONITORING/blob/main/DEMO_VID.mp4
+# ACKNOWLEDGEMENT
+We express our sincere gratitude to everyone who contributed to the successful development of this Motor Vibration Monitoring System.
+
+We would like to extend our heartfelt thanks to:
+
+The development community for open-source references and libraries that helped in interfacing sensors and microcontrollers.
+
+Our team members for their dedication, teamwork, and problem-solving approach in making this project a reality.
+
+Manufacturers and suppliers for providing high-quality electronic components essential for the system.
+
+This project was made possible through collaborative efforts, and we hope it serves as a foundation for further enhancements in motor safety and industrial automation.
