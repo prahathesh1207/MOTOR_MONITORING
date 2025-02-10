@@ -74,7 +74,7 @@ void GPIO_INIT(void) {
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
 
     // Initialize SDA and SCL pins for I2C
-   GPIO_InitStructure.GPIO_Pin = SDA_PIN | SCL_PIN;
+    GPIO_InitStructure.GPIO_Pin = SDA_PIN | SCL_PIN;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_OD;
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
     GPIO_Init(GPIOC, &GPIO_InitStructure);
