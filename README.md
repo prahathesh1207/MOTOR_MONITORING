@@ -10,6 +10,9 @@ Vibration Levels (ISO 10816-3): Acceptable values for a rigidly mounted motor ra
 By continuously tracking these parameters, our system ensures early fault detection, preventing costly repairs and minimizing downtime.
 # Overview of System Operation
    1.Vibration Monitoring (SW420 Sensor, PC6 Pin): Detects abnormal mechanical oscillations and sends alerts.
+   
    2.LCD Display (PD6, PD7): Shows real-time vibration levels.
+   
    3.Alarm System: Alerts users if vibration crosses critical thresholds.
+ 
  This system aligns with ISO guidelines, ensuring a reliable and safe motor operation strategy.
