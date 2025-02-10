@@ -29,17 +29,7 @@ By continuously tracking these parameters, our system ensures early fault detect
 | **Jumper Wires**                 | 1 set       | Used for connections between components             | Male-to-Male, Male-to-Female |  
 | **Micro USB Cable**              | 1           | Used for power and programming                      | Standard Micro USB Cable     |  
 | **Power Supply (5V/12V)**        | 1           | Supplies power to the system                        | 5V Adapter / 12V Battery     |  
-# Table for Pin Connections
-## Components Required with Bill of Materials (BoM)  
-
-| **Component**               | **VSD Squadron Mini Pin** | **Description**                                             |  
-|-----------------------------|--------------------------|-------------------------------------------------------------|  
-| **Vibration Sensor D0**      | PD4                      | Digital output from SW420 vibration sensor                  |  
-| **LCD SDA**                 | PC1                      | Serial data line for I2C communication                      |  
-| **LCD SCL**                 | PC2                      | Serial clock line for I2C communication                     |  
-| **Green LED**               | PD6                      | Turns on when system starts               |  
-| **Red LED**                 | PD5                      | Turns on when sensors calibration (system booting)                 |  
-## Components Required with Bill of Materials (BoM)  
+# Table for Pin Connections 
 
 | **Component**               | **VSD Squadron Mini Pin** | **Description**                                             |  
 |-----------------------------|--------------------------|-------------------------------------------------------------|  
@@ -48,7 +38,6 @@ By continuously tracking these parameters, our system ensures early fault detect
 | **LCD SCL**                 | PC2                      | Serial clock line for I2C communication                     |  
 | **Green LED**               | PD6                      | Turns on when vibration is within safe limits               |  
 | **Red LED**                 | PD5                      | Turns on when vibration exceeds safe limits                 |  
-| **Buzzer**                  | PD3                      | Provides an audible alert when vibration exceeds thresholds |  
 | **LCD VCC**                 | 5V                       | LCD power supply                                            |  
 | **LCD GND**                 | GND                      | LCD ground                                                  |  
 | **Vibration Sensor VCC**     | 5V                       | SW420 sensor power supply                                   |  
