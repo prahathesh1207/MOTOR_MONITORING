@@ -1,4 +1,4 @@
-# MOTOR MONITORING
+# ENERGY EFFICIENT SYSTEM FOR ELECTRICAL MOTORS
 A system that monitors motor vibrations in accordance with ISO 10816 standards and alerts the user when vibration levels exceed safety limits.
 # INTRODUCTION
 Industrial motors play a critical role in various applications, from manufacturing plants to power generation. Ensuring their safe operation is vital to prevent failures, downtime, and hazards. Our system monitors the vibration of a motor, providing real-time alerts if the motor exceeds its safety operating limits. Using a VSD Squadron microcontroller, SW420 vibration sensor, and an LCD for display, this system ensures proactive maintenance and enhances motor lifespan.
@@ -26,9 +26,35 @@ By continuously tracking these parameters, our system ensures early fault detect
 | **VSD Squadron Microcontroller** | 1           | Microcontroller board for sensor interfacing        | VSD Squadron Mini            |  
 | **SW420 Vibration Sensor**       | 1           | Detects abnormal vibrations in the motor            | SW420                        |  
 | **LCD Display**                  | 1           | Displays vibration levels and alerts                | 16x2 LCD (I2C or parallel)   |  
-| **Buzzer/Alarm**                 | 1           | Provides an audible alert when limits are exceeded  | Active Buzzer Module         |  
 | **Jumper Wires**                 | 1 set       | Used for connections between components             | Male-to-Male, Male-to-Female |  
 | **Micro USB Cable**              | 1           | Used for power and programming                      | Standard Micro USB Cable     |  
 | **Power Supply (5V/12V)**        | 1           | Supplies power to the system                        | 5V Adapter / 12V Battery     |  
+# Table for Pin Connections
+## Components Required with Bill of Materials (BoM)  
+
+| **Component**               | **VSD Squadron Mini Pin** | **Description**                                             |  
+|-----------------------------|--------------------------|-------------------------------------------------------------|  
+| **Vibration Sensor D0**      | PD4                      | Digital output from SW420 vibration sensor                  |  
+| **LCD SDA**                 | PC1                      | Serial data line for I2C communication                      |  
+| **LCD SCL**                 | PC2                      | Serial clock line for I2C communication                     |  
+| **Green LED**               | PD6                      | Turns on when system starts               |  
+| **Red LED**                 | PD5                      | Turns on when sensors calibration (system booting)                 |  
+## Components Required with Bill of Materials (BoM)  
+
+| **Component**               | **VSD Squadron Mini Pin** | **Description**                                             |  
+|-----------------------------|--------------------------|-------------------------------------------------------------|  
+| **Vibration Sensor D0**      | PD4                      | Digital output from SW420 vibration sensor                  |  
+| **LCD SDA**                 | PC1                      | Serial data line for I2C communication                      |  
+| **LCD SCL**                 | PC2                      | Serial clock line for I2C communication                     |  
+| **Green LED**               | PD6                      | Turns on when vibration is within safe limits               |  
+| **Red LED**                 | PD5                      | Turns on when vibration exceeds safe limits                 |  
+| **Buzzer**                  | PD3                      | Provides an audible alert when vibration exceeds thresholds |  
+| **LCD VCC**                 | 5V                       | LCD power supply                                            |  
+| **LCD GND**                 | GND                      | LCD ground                                                  |  
+| **Vibration Sensor VCC**     | 5V                       | SW420 sensor power supply                                   |  
+| **Vibration Sensor GND**     | GND                      | SW420 sensor ground                                         |  
+| **Microcontroller Power**    | Micro USB                | Provides power to the microcontroller                       |  
+
+
 
 
