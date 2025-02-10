@@ -157,3 +157,4 @@ By continuously tracking these parameters, our system ensures early fault detect
 
     }
 # Demo Video
+https://github.com/prahathesh1207/MOTOR_MONITORING/blob/main/DEMO_VID.mp4
