@@ -103,10 +103,9 @@ GPIO_Init(GPIOD, &GPIO_InitStructure);
 
 }
 //main function
-
 int main(void)
 {
-        SystemCoreClockUpdate();
+        SystemCoreClockUpdate();    
         GPIO_INIT(); // Initialize GPIO pins
         lcd_init();  // Initialize the LCD Display
         delay_ms(20); 
