@@ -43,6 +43,8 @@ By continuously tracking these parameters, our system ensures early fault detect
 | **Vibration Sensor VCC**     | 5V                       | SW420 sensor power supply                                   |  
 | **Vibration Sensor GND**     | GND                      | SW420 sensor ground                                         |  
 | **Microcontroller Power**    | Micro USB                | Provides power to the microcontroller                       |  
+# Pinout Diagram
+![image](https://github.com/prahathesh1207/MOTOR_MONITORING/blob/main/SCHEMATIC.jpg)
 # WORKING CODE
 
     #include <ch32v00x.h>
