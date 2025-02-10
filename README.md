@@ -8,3 +8,8 @@ Example: 150 HP Motor (Approx. 110 kW)
 For a 150 HP motor, ISO standards define acceptable vibration limits based on motor mounting and application. Typically:
 Vibration Levels (ISO 10816-3): Acceptable values for a rigidly mounted motor range from 1.8 to 4.5 mm/s RMS. If vibration exceeds 7 mm/s, the motor is considered to be in an alert zone requiring immediate maintenance.
 By continuously tracking these parameters, our system ensures early fault detection, preventing costly repairs and minimizing downtime.
+# Overview of System Operation
+   1.Vibration Monitoring (SW420 Sensor, PC6 Pin): Detects abnormal mechanical oscillations and sends alerts.
+   2.LCD Display (PD6, PD7): Shows real-time vibration levels.
+   3.Alarm System: Alerts users if vibration crosses critical thresholds.
+ This system aligns with ISO guidelines, ensuring a reliable and safe motor operation strategy.
